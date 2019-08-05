@@ -74,9 +74,14 @@
         </div>
       </header>
       <div role="main" class="oj-web-applayout-max-width oj-web-applayout-content">
-          <demo-one message1="{{demoOneMessage1}}" message2="{{demoOneMessage2}}"></demo-one>
-          <hr>
-          <demo-two message1="{{demoTwoMessage1}}" message2="{{demoTwoMessage2}}"></demo-two>
+          <div class="oj-flex">
+			<div class="oj-flex-item">
+				<demo-one message1="{{demoOneMessage1}}" message2="{{demoOneMessage2}}"></demo-one>
+			</div>
+			<div class="oj-flex-item">
+				<demo-two message1="{{demoTwoMessage1}}" message2="{{demoTwoMessage2}}"></demo-two>
+			</div>
+		  </div>
       </div>
       <footer class="oj-web-applayout-footer" role="contentinfo">
         <div class="oj-web-applayout-footer-item oj-web-applayout-max-width">
